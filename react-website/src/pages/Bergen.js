@@ -1,11 +1,13 @@
 import React from "react";
+import BergenAttractions from "../components/Details/BergenAttractions";
+import BergenRestaurants from "../components/Details/BergenRestaurants";
 
 const Bergen = () => {
     return (
         <div>
             <h1>Bergen</h1>
-            <h2>Things to do</h2>
-            <h2>Where to eat</h2>
+            <BergenAttractions />
+            <BergenRestaurants />
         </div>
     );
 };
