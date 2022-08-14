@@ -1,11 +1,13 @@
 import React from "react";
 import Bryggen from "./images/Bryggen.jpg";
 import Floibanen from "./images/Floibanen.jpg";
+import BergenMap from "./images/BergenMap.png";
 
 const BergenAttractions = () => {
   return (
     <div className="BergenAttractions"> 
       <h2>Attractions</h2>
+      <img src={BergenMap} class="img-fluid" width="50%" alt="Bergen Map"/>
       <ol>
         <li> Bryggen</li>
         <li> Fløibanen</li>
@@ -19,7 +21,7 @@ const BergenAttractions = () => {
       </ol>
       <div className="row">
         {/* Bryggen */}
-        <div className="col-sm-4">
+        <div className="col-sm-4 border">
           <h5>Bryggen</h5>   
           <img src={Bryggen} class="img-fluid" width="25%" alt="Bryggen"/>
           <p>Old wharf buildings that are now shops, cafes, and galleries. UNESCO World Heritage Site</p>  
