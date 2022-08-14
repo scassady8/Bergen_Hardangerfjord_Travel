@@ -1,6 +1,15 @@
 import React from "react";
 import HardangerfjordMap from "./images/HardangerfjordMap.png";
 import Steinsdalfossen from "./images/Steinsdalfossen.jpg";
+import Trolltunga from "./images/Trolltunga.jpg";
+import Bondhusvatnet from "./images/Bondhusvatnet.jpg";
+import Furebergsfossen from "./images/Furebergsfossen.jpg";
+import HeitSorfjordenSauna from "./images/HeitSorfjordenSauna.jpg";
+import Latefossen from "./images/Latefossen.jpg";
+import OlaK from "./images/OlaK.jpg";
+import Skjervefossen from "./images/Skjervefossen.jpg";
+import Tvindefossen from "./images/Tvindefossen.jpg";
+import Voringfossen from "./images/Voringfossen.jpeg";
 
 const HardangerfjordAttractions = () => {
   return (
@@ -43,9 +52,9 @@ const HardangerfjordAttractions = () => {
         {/* Bondhusvanet */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Bondhusvatnet} class="card-img-top" alt="Bonhusvatnet" />
             <div className="card-body">
-              <h5 className="card-title">Bondhusvatn</h5>   
+              <h5 className="card-title">Bondhusvatnet</h5>   
               <p className="card-text">XXX</p> 
             </div> 
           </div>
@@ -53,7 +62,7 @@ const HardangerfjordAttractions = () => {
         {/* Trolltunga */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Trolltunga} class="card-img-top" alt="Trolltunga" />
             <div className="card-body">
               <h5 className="card-title">Trolltunga</h5>   
               <p className="card-text">XXX</p> 
@@ -63,7 +72,7 @@ const HardangerfjordAttractions = () => {
         {/* Furebergsfossen */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Furebergsfossen} class="card-img-top" alt="Furebergsfossen" />
             <div className="card-body">
               <h5 className="card-title">Furebergsfossen</h5>   
               <p className="card-text">XXX</p> 
@@ -73,7 +82,7 @@ const HardangerfjordAttractions = () => {
         {/* Låtefossen */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Latefossen}class="card-img-top" alt="Låtefossen" />
             <div className="card-body">
               <h5 className="card-title">Låtefossen</h5>   
               <p className="card-text">XXX</p> 
@@ -120,23 +129,15 @@ const HardangerfjordAttractions = () => {
             </div> 
           </div>
         </div> 
-        {/* Kayaking/Hike Glacier Tour */}
-        <div className="col-sm-6">
-          <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
-            <div className="card-body">
-              <h5 className="card-title">Kayak and Glacier Hike Tour</h5>   
-              <p className="card-text">XXX</p> 
-            </div> 
-          </div>
-        </div> 
         {/* Glacier Hike Tour */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
             <img src="..." class="card-img-top" alt="XXX" />
             <div className="card-body">
-              <h5 className="card-title">Glacier Hike Tour</h5>   
+              <h5 className="card-title">Glacier Hike with Folgefonni Glacier Team</h5>   
               <p className="card-text">XXX</p> 
+              <a href="https://www.folgefonni.no/tours/blue-ice-hike" class="btn btn-primary" target="_blank" rel="noreferrer">Blue Ice Glacier Hike</a> 
+              <a href="https://www.folgefonni.no/tours#kayaking" class="btn btn-primary" target="_blank" rel="noreferrer">Kayaking Tours</a> 
             </div> 
           </div>
         </div> 
@@ -146,17 +147,20 @@ const HardangerfjordAttractions = () => {
             <img src="..." class="card-img-top" alt="XXX" />
             <div className="card-body">
               <h5 className="card-title">Fjord Cruise</h5>   
-              <p className="card-text">XXX</p> 
+              <p className="card-text">Enjoy the views of Hardangerfjord from the Vision of the Fjords. The boat trip is popularly referred to as the cider boat. You can take the trip as a pure fjord cruise or combine it with cider tasting and visit the local cider producers along the way.
+              </p>
+              <a href="https://www.thefjords.no/en/fjordcruise/the-hardangerfjord/" class="btn btn-primary" target="_blank" rel="noreferrer">Hardangderfjord Cruise</a> 
             </div> 
           </div>
         </div> 
         {/* Heit Sorfjorden Sauna */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={HeitSorfjordenSauna} class="card-img-top" alt="Heit Sørfjorden Sauna" />
             <div className="card-body">
               <h5 className="card-title">Heit Sørfjorden Sauna</h5>   
               <p className="card-text">XXX</p> 
+              <a href="https://en.heitsauna.com/" class="btn btn-primary" target="_blank" rel="noreferrer">Heit Sørfjorden Sauna</a>
             </div> 
           </div>
         </div> 
@@ -183,7 +187,7 @@ const HardangerfjordAttractions = () => {
         {/* Siderhuset Ola K */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={OlaK} class="card-img-top" alt="Siderhuset Ola K" />
             <div className="card-body">
               <h5 className="card-title">Siderhuset Ola K</h5>   
               <p className="card-text">XXX</p> 
@@ -223,7 +227,7 @@ const HardangerfjordAttractions = () => {
         {/* Tvindefossen  */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Tvindefossen} class="card-img-top" alt="Tvindefossen" />
             <div className="card-body">
               <h5 className="card-title">Tvindefossen</h5>   
               <p className="card-text">XXX</p> 
@@ -233,7 +237,7 @@ const HardangerfjordAttractions = () => {
         {/* Skjervefossen */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Skjervefossen} class="card-img-top" alt="Skjervefossen" />
             <div className="card-body">
               <h5 className="card-title">Skjervefossen</h5>   
               <p className="card-text">XXX</p> 
@@ -245,15 +249,17 @@ const HardangerfjordAttractions = () => {
           <div className="card" style={{width:'18rem'}} border>
             <img src="..." class="card-img-top" alt="XXX" />
             <div className="card-body">
-              <h5 className="card-title">Kayaking or SUP in Voss</h5>   
+              <h5 className="card-title">Kayaking or SUP rental in Voss</h5>   
               <p className="card-text">XXX</p> 
+              <a href="https://www.vossflow.no/bookings-checkout/river-standup-paddle-boarding/book" class="btn btn-primary" target="_blank" rel="noreferrer">Voss Flow</a>
+              <a href="https://www.outdoornorway.com/sup-rentals/" class="btn btn-primary" target="_blank" rel="noreferrer">Outdoor Norway</a>
             </div> 
           </div>
         </div>
         {/* Voringsfossen */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="XXX" />
+            <img src={Voringfossen} class="card-img-top" alt="Vøringfossen" />
             <div className="card-body">
               <h5 className="card-title">Vøringfossen</h5>   
               <p className="card-text">XXX</p> 

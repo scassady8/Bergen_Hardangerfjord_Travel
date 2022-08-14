@@ -11,7 +11,7 @@ const BergenAttractions = () => {
       <ol>
         <li> Bryggen</li>
         <li> Fløibanen</li>
-        <li> Fløyen Trailhead</li>
+        <li> Fløyen</li>
         <li> Bergenhus Fortress</li>
         <li> Ulriken Trailhead</li>
         <li> Ulriken</li>
@@ -35,13 +35,8 @@ const BergenAttractions = () => {
       {/* Fløyen */}
       <div className="col-sm-4">
         <h5>Mount Fløyen</h5>   
-        <p>Lots of options for hiking and exploring the mountain. Multiple cafes at the top of the funicular to enjoy the view. </p>  
+        <p>Lots of options for hiking and exploring the mountain. Multiple cafes at the top of the funicular to enjoy the view. Hike up or take the funicular up to the viewing platform. </p>  
       </div>
-      {/* Fløyen Trailhead */}
-      <div className="col-sm-4">
-        <h5>Fløyen Trailhead</h5>   
-        <p>Trailhead to hike up to Fløyen</p>  
-      </div> 
       {/* Bergenhus */}
       <div className="col-sm-4">
         <h5 className="card-title">Bergenhus Fortress</h5>   
