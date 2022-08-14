@@ -2,6 +2,10 @@ import React from "react";
 import Bryggen from "./images/Bryggen.jpg";
 import Floibanen from "./images/Floibanen.jpg";
 import BergenMap from "./images/BergenMap.png";
+import Bergenhus from "./images/Bergenhus.jpg";
+import Floyen from "./images/Floyen.jpg";
+import UlrikenHike from "./images/UlrikenHike.jpg";
+import UlrikenCableCar from "./images/UlrikenCableCar.JPG";
 
 const BergenAttractions = () => {
   return (
@@ -34,22 +38,26 @@ const BergenAttractions = () => {
       </div>
       {/* Fløyen */}
       <div className="col-sm-4">
-        <h5>Mount Fløyen</h5>   
+        <h5>Fløyen</h5>  
+        <img src={Floyen} class="img-fluid" width="25%" alt="Fløyen"/>
         <p>Lots of options for hiking and exploring the mountain. Multiple cafes at the top of the funicular to enjoy the view. Hike up or take the funicular up to the viewing platform. </p>  
       </div>
       {/* Bergenhus */}
       <div className="col-sm-4">
-        <h5 className="card-title">Bergenhus Fortress</h5>   
+        <h5 className="card-title">Bergenhus Fortress</h5>  
+        <img src={Bergenhus} class="img-fluid" width="25%" alt="Bergenhus"/> 
         <p className="card-text">XXX</p>  
       </div>
       {/* Ulriken Trailhead */}
       <div className="col-sm-4">
         <h5>Ulriken Trailhead</h5>   
+        <img src={UlrikenHike} class="img-fluid" width="25%" alt="Ulriken Hike"/>
         <p>2 km hiking trail to the top of Ulriken</p>  
       </div>
       {/* Ulriken */}
       <div className="col-sm-4">
         <h5>Ulriken</h5>   
+        <img src={UlrikenCableCar} class="img-fluid" width="25%" alt="Ulriken"/>
         <p>Mountain overlooking Bergen with cable car and restaurant</p>  
       </div>
       {/* Sauna */}
