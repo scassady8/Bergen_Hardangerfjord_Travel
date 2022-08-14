@@ -58,6 +58,7 @@ const BergenAttractions = () => {
       {/* Sauna */}
       {/* Fantoft Stave Church */}
       {/* Horseback riding */}
+      {/* City walking tour - I love Bergen */}
       </div>
     </div>
     );

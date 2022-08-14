@@ -1,11 +1,11 @@
 import React from "react";
+import HardangerfjordAttractions from "../components/Details/HardangerfjordAttractions";
 
 const Hardangerfjord = () => {
     return (
         <div>
             <h1>Hardangerfjord</h1>
-            <h2>Things to do</h2>
-            <h2>Where to eat</h2>
+            <HardangerfjordAttractions />
         </div>
     );
 };
