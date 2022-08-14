@@ -1,5 +1,6 @@
 import React from "react";
 import HardangerfjordMap from "./images/HardangerfjordMap.png";
+import Steinsdalfossen from "./images/Steinsdalfossen.jpg";
 
 const HardangerfjordAttractions = () => {
   return (
@@ -32,7 +33,7 @@ const HardangerfjordAttractions = () => {
         {/* Steinsdalfossen */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
-            <img src="..." class="card-img-top" alt="Steinsdalfossen" />
+            <img src={Steinsdalfossen} class="card-img-top" alt="Steinsdalfossen" />
             <div className="card-body">
               <h5 className="card-title">Steinsdalfossen</h5>   
               <p className="card-text">XXX</p> 
