@@ -10,6 +10,7 @@ import OlaK from "./images/OlaK.jpg";
 import Skjervefossen from "./images/Skjervefossen.jpg";
 import Tvindefossen from "./images/Tvindefossen.jpg";
 import Voringfossen from "./images/Voringfossen.jpeg";
+import BuardalenHike from "./images/BuardalenHike.jpg";
 
 const HardangerfjordAttractions = () => {
   return (
@@ -45,7 +46,9 @@ const HardangerfjordAttractions = () => {
             <img src={Steinsdalfossen} class="card-img-top" alt="Steinsdalfossen" />
             <div className="card-body">
               <h5 className="card-title">Steinsdalfossen</h5>   
-              <p className="card-text">XXX</p> 
+              <p className="card-text">Go behind the waterfall at Steinsdalfossen! 
+              The path allows you to walk under the waterfall to a viewing platform over the Steinsdalen and Norheimsund. 
+              The waterfall, with its 50 meter high drop, has become a popular attraction. </p> 
             </div> 
           </div>
         </div> 
@@ -55,7 +58,13 @@ const HardangerfjordAttractions = () => {
             <img src={Bondhusvatnet} class="card-img-top" alt="Bonhusvatnet" />
             <div className="card-body">
               <h5 className="card-title">Bondhusvatnet</h5>   
-              <p className="card-text">XXX</p> 
+              <p className="card-text">Bondhusdalen was the site for the opening ceremony of Folgefonna National Park in 2005.  
+              Queen Sonja of Norway’s signature is on a rock by the lake. 
+              The hike up to Bondhusvatnet lake is an easy hike. 
+              The round trip is about 4.5 km and takes about 2 hours. 
+              You can continue the trail to the far end of the lake for a better view of the Bondhusbrea icefall or continue past the lake to a moraine below Bondhusbrea. 
+              The hike is about three hours to the far end of the lake and back again, and four hours if you’re hiking to the moraine.</p> 
+              <a href="https://folgefonna.info/en/folgefonnas-many-attractions/bondhusdalen-valley/" target="_blank" rel="noreferrer">Bondhusvatnet</a>  
             </div> 
           </div>
         </div> 
@@ -141,6 +150,19 @@ const HardangerfjordAttractions = () => {
             </div> 
           </div>
         </div> 
+        {/* Buardalen Hike */}
+        <div className="col-sm-6">
+          <div className="card" style={{width:'18rem'}} border>
+            <img src={BuardalenHike} class="card-img-top" alt="Buardalen Hike" />
+            <div className="card-body">
+              <h5 className="card-title">Hike to the Buerbreen Glacier</h5>   
+              <p className="card-text">From Buer, you can walk to the edge of the Buerbreen glacier. 
+              You cand see the blue ice of the glacier throughout the hike. 
+              The hike from Buer to the glacier's edge and back is about 6 km and takes about 3 hours. </p> 
+              <a href="https://folgefonna.info/en/folgefonnas-many-attractions/buardalen-a-hike-to-the-edge-of-the-glacier/" target="_blank" rel="noreferrer">Buardalen Hike</a>  
+            </div> 
+          </div>
+        </div>
         {/* Fjord cruise */}
         <div className="col-sm-6">
           <div className="card" style={{width:'18rem'}} border>
@@ -190,7 +212,9 @@ const HardangerfjordAttractions = () => {
             <img src={OlaK} class="card-img-top" alt="Siderhuset Ola K" />
             <div className="card-body">
               <h5 className="card-title">Siderhuset Ola K</h5>   
-              <p className="card-text">XXX</p> 
+              <p className="card-text">Cider house and restaurant located right along the fjord in Nå, about 20 minutes from Odda. 
+              The restaurant offers a 2-course lunch or 3-course dinner.</p> 
+              <a href="https://www.olak.no/" class="btn btn-primary" target="_blank" rel="noreferrer">Siderhuset Ola K</a> 
             </div> 
           </div>
         </div> 
@@ -200,7 +224,8 @@ const HardangerfjordAttractions = () => {
             <img src="..." class="card-img-top" alt="XXX" />
             <div className="card-body">
               <h5 className="card-title">DolceVidda</h5>   
-              <p className="card-text">XXX</p> 
+              <p className="card-text">Italian gelato and sorbet</p> 
+              <a href="https://www.facebook.com/gelato.hardanger/?fref=ts" class="btn btn-primary" target="_blank" rel="noreferrer">DolceVidda</a> 
             </div> 
           </div>
         </div> 
