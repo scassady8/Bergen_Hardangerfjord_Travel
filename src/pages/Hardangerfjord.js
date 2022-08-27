@@ -1,13 +1,18 @@
 import React from "react";
-import HardangerfjordAttractions from "../components/Details/HardangerfjordAttractions";
-import HardangerfjordView from "./pageImages/HardangerfjordView.jpg";
+import HardangerfjordMap from "../components/HardangerfjordComponents/HardangerfjordMap";
+import OddaAttractions from "../components/HardangerfjordComponents/Odda";
+import VossAttractions from "../components/HardangerfjordComponents/Voss";
+import Fjord from "./pageImages/Fjord.jpg";
+
 
 const Hardangerfjord = () => {
     return (
         <div>
             <h1>Hardangerfjord</h1>
-            <img source={HardangerfjordView} class="img-fluid" alt="Hardangerfjord"/>
-            <HardangerfjordAttractions />
+            <img source={Fjord} class="img-fluid" alt="Hardangerfjord"/>
+            <HardangerfjordMap/>
+            <OddaAttractions/>
+            <VossAttractions/>
         </div>
     );
 };

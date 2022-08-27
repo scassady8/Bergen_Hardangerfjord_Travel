@@ -1,6 +1,6 @@
 import React from "react";
-import BergenAttractions from "../components/Details/BergenAttractions";
-import BergenRestaurants from "../components/Details/BergenRestaurants";
+import BergenAttractions from "../components/BergenComponents/BergenAttractions";
+import BergenRestaurants from "../components/BergenComponents/BergenRestaurants";
 
 const Bergen = () => {
     return (
