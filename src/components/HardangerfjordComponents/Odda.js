@@ -1,6 +1,6 @@
 import React from "react";
 import Trolltunga from "./HardangerfjordImages/TrolltungaNew.jpg";
-import HeitSorfjordenSauna from "./HardangerfjordImages/HeitSorfjordenSauna.jpg";
+import HeitSorfjordSauna from "./HardangerfjordImages/HeitSorfjordSauna.jpg";
 import Latefossen from "./HardangerfjordImages/Latefossen.jpg";
 import OlaK from "./HardangerfjordImages/OlaK.jpg";
 import BuardalenHike from "./HardangerfjordImages/BuardalenHike.jpg";
@@ -91,7 +91,7 @@ const OddaAttractions = () => {
         {/* Heit Sorfjorden Sauna */}
         <div className="col-sm-6 border p-2">
           <h5 className="card-title">Heit Sørfjorden Sauna</h5> 
-          <img src={HeitSorfjordenSauna} class="img-fluid" width="50%" alt="Heit Sørfjorden Sauna" />
+          <img src={HeitSorfjordSauna} class="img-fluid" width="50%" alt="Heit Sørfjorden Sauna" />
           <p className="card-text">XXX</p> 
           <a href="https://en.heitsauna.com/" class="btn btn-primary" target="_blank" rel="noreferrer">Heit Sørfjorden Sauna</a>
         </div> 

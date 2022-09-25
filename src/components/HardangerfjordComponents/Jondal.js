@@ -2,7 +2,7 @@ import React from "react";
 import Steinsdalfossen from "./HardangerfjordImages/Steinsdalfossen.jpg";
 import Bondhusvatnet from "./HardangerfjordImages/Bondhusvatnet.jpg";
 import Furebergsfossen from "./HardangerfjordImages/Furebergsfossen.jpg";
-import BarionetRosendal from "./HardangerfjordImages/Barionet.jpg";
+import BarionetManor from "./HardangerfjordImages/BarionetHouse.jpg";
 import Fjellhaugvatn from "./HardangerfjordImages/Fjellhaugvatn.jpg";
 
 const JondalAttractions = () => {
@@ -40,7 +40,7 @@ const JondalAttractions = () => {
         {/* Barioniet */}
         <div className="col-sm-6 border p-2">
           <h5>Baroniet Rosendal</h5>
-          <img src={BarionetRosendal} class="img-fluid" alt="Baroniet Rosendal" />
+          <img src={BarionetManor} class="img-fluid" alt="Baroniet Rosendal" />
           <p>Baroniet Rosendal is Norway's only barony and Scandinavia's smallest castle. The manor was finished in 1665. 
             It is well known for its beautiful rose garden and landscape garden created over 300 years ago.
             You can explore the Barony in Rosendal and garden which is full of beautiful and fragrant flowers. 
