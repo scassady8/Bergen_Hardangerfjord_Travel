@@ -2,7 +2,6 @@ import React from "react";
 import Bergenhus from "./BergenImages/Bergenhus.jpg";
 import BergenhusChurch from "./BergenImages/BergenhusChurch.jpg";
 import BergenhusInside from "./BergenImages/BergenhusInside.jpg";
-import BergenMap from "./BergenImages/BergenMap.png";
 import Bryggen from "./BergenImages/Bryggen.jpg";
 import FantoftStaveChurch from "./BergenImages/FantoftStaveChurch.jpg";
 import FantoftDetail from "./BergenImages/FantoftDetail.jpg";
@@ -22,21 +21,9 @@ const BergenAttractions = () => {
   return (
     <div className="BergenAttractions m-3"> 
       <h2>Attractions</h2>
-      <img src={BergenMap} class="img-fluid" width="50%" alt="Bergen Map"/>
-      <ol>
-        <li> Bryggen</li>
-        <li> Fløibanen</li>
-        <li> Fløyen</li>
-        <li> Bergenhus Fortress</li>
-        <li> Ulriken Trailhead</li>
-        <li> Ulriken</li>
-        <li> City Sauna Bergen</li>
-        <li> Heit Bergen Sauna</li>
-        <li> Fantoft Stave Church</li>
-      </ol>
       <div className="row">
         {/* Bryggen */}
-        <div className="col-sm-12 border p-2">
+        <div className="col-sm-12 p-2">
           <h5>Bryggen</h5>   
           <p>Bryggen is one of Bergen's and Norway's main attractions. 
             Bryggen was built after the great fire in 1702 and is included on UNESCO's World Heritage List. 
@@ -45,9 +32,10 @@ const BergenAttractions = () => {
             Today, the area consists of small shops, galleries, and artist studios. 
           </p>  
           <img src={Bryggen} class="img-fluid" width="50%" alt="Bryggen"/>
+          <p className="caption">View of Bryggen wharf buildings</p>
         </div>                    
       {/* Fløibanen */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Fløibanen</h5>
         <p>Fløibanen is a funicular railway that runs from the centre of Bergen to Fløyen (320 m above sea level) and is one of Norway's most visited attractions.  
           The funiculars “Rødhette” (the red one) and “Blåmann” (the blue one) takes you to the mountain top in just a few minutes! 
@@ -57,7 +45,7 @@ const BergenAttractions = () => {
         <img src={Floibanen} class="img-fluid" width="50%" alt="Fløibanen"/>
       </div>
       {/* Fløyen */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Fløyen</h5>  
         <p>Fløyen is one of Bergen's seven mountains. 
           Fløyen is a large hiking area with lots of trails and different views of the city. 
@@ -71,7 +59,7 @@ const BergenAttractions = () => {
         <img src={FloyenGoat} class="img-fluid p-1" width="40%" alt="Goat at Fløyen"/>
       </div>
       {/* Bergenhus */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Bergenhus Fortress</h5>  
         <p>Bergenhus Fortress is one of Norway's oldest and best preserved fortifications. 
         Today, Bergenhus Fortress is made up of the grounds within the ramparts,  originally known as Holmen, and Koengen and Sverresborg. 
@@ -82,7 +70,7 @@ const BergenAttractions = () => {
         <img src={BergenhusInside} class="img-fluid" width="50%" alt="Interior of Bergenhus"/> 
       </div>
       {/* Ulriken Trailhead */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Ulriken Trailhead</h5>   
         <p>The hike to Ulriken is one of the most popular hikes in Bergen. 
           The hike takes you up 1333 Sherpa steps and takes about 1.5 hours. 
@@ -92,7 +80,7 @@ const BergenAttractions = () => {
         <img src={UlrikenHike} class="img-fluid" width="50%" alt="Ulriken Hike"/>
       </div>
       {/* Ulriken */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Ulriken</h5>   
         <p>Ulriken is the highest of Bergen's seven mountains. 
           You can get to the top of Ulriken by hiking up or taking the cable car. 
@@ -112,7 +100,7 @@ const BergenAttractions = () => {
         <img src={UlrikenView2} class="img-fluid" width="50%" alt="Ulriken"/>
       </div>
       {/* Sauna */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Sauna</h5>
         <p>There are 2 sauna groups in Bergen. 
           Heit Bergen Sauna is on a floating pier. 
@@ -124,7 +112,7 @@ const BergenAttractions = () => {
         <img src={HeitBergenSauna} class="img-fluid" width="50%" alt="Heit Bergen Sauna"/>
       </div>
       {/* Fantoft Stave Church */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Fantoft Stave Church</h5>
         <p>The old stave church was originally built in Fortun in Sogn in 1170. In 1883, the stave church was demolished and rebuilt in Fantoft. 
           Fantoft Stave Church burned to the ground in 1992. 
@@ -135,7 +123,7 @@ const BergenAttractions = () => {
         <img src={FantoftDetail} class="img-fluid" width="50%" alt="Detailed carvings at Fantoft Stave Church"/>
       </div>
       {/* Horseback riding */}
-      <div className="col-sm-12 border p-2">
+      <div className="col-sm-12 p-2">
         <h5>Horseback riding at Øvre-Eide Gård</h5>
         <p>Øvre-Eide Gård offers horseback riding tours in the mountains surrounding Bergen. 
           The most popular trip goes to Sandviksbatteriet - a two-hour excursion where you can enjoy views of Bergen and the surrounding archipelago. 
